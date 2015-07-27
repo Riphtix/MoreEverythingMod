@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "mem:silver_ore"
+    }
+  }
+}
