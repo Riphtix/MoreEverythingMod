@@ -30,15 +30,18 @@ public class MoreOresGeneration implements IWorldGenerator{
 
 	public void generateNether(World world, Random rand, int x, int z){
 		generateOre(MoreBlocks.silver_ore, world, rand, x, z, 3, 10, 5, 12, 100, Blocks.end_stone);
+		generateOre(MoreBlocks.ruby_ore, world, rand, x, z, 3, 10, 3, 12, 50, Blocks.end_stone);
 
 	}
 
 	public void generateOverworld(World world, Random rand, int x, int z){
 		generateOre(MoreBlocks.silver_ore, world, rand, x, z, 3, 10, 5, 12, 100, Blocks.stone);
+		generateOre(MoreBlocks.ruby_ore, world, rand, x, z, 3, 10, 3, 12, 50, Blocks.stone);
 	}
 
 	public void generateEnd(World world, Random rand, int x, int z){
 		generateOre(MoreBlocks.silver_ore, world, rand, x, z, 3, 10, 5, 12, 100, Blocks.netherrack);
+		generateOre(MoreBlocks.ruby_ore, world, rand, x, z, 3, 10, 3, 12, 50, Blocks.netherrack);
 
 	}
 

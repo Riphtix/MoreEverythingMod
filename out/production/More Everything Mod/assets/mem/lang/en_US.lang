@@ -1,2 +1,46 @@
+item.ruby.name=Ruby
+item.ruby_axe.name=Ruby Axe
+item.ruby_hoe.name=Ruby Hoe
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_sword.name=Ruby Sword
+item.silver_axe.name=Silver Axe
+item.silver_hoe.name=Silver Hoe
 item.silver_ingot.name=Silver Ingot
+item.silver_pickaxe.name=Silver Pickaxe
+item.silver_shovel.name=Silver Shovel
+item.silver_sword.name=Silver Sword
+
 tile.silver_ore.name=Silver Ore
+tile.ruby_ore.name=Ruby Ore
+
+itemGroup.moreBlocks=More Blocks
+itemGroup.moreItems=More Items
+itemGroup.moreTools=More Tools
+itemGroup.moreWeapons=More Weapons
+
+entity.DragonMounts.DragonMount.air.name=Aether Dragon
+entity.DragonMounts.DragonMount.end.name=Ender Dragon
+entity.DragonMounts.DragonMount.fire.name=Fire Dragon
+entity.DragonMounts.DragonMount.ghost.name=Ghost Dragon
+entity.DragonMounts.DragonMount.ice.name=Ice Dragon
+entity.DragonMounts.DragonMount.name=Ender Dragon
+entity.DragonMounts.DragonMount.nether.name=Nether Dragon
+entity.DragonMounts.DragonMount.water.name=Water Dragon
+entity.DragonMounts.DragonMount.forest.name=Forest Dragon
+
+commands.dragon.nodragons=There are no dragons nearby
+commands.dragon.canttame=You cannot tame dragons
+
+dragon.lifeStage.egg=egg
+dragon.lifeStage.hatchling=hatchling
+dragon.lifeStage.juvenile=juvenile
+dragon.lifeStage.adult=adult
+dragon.owned=This dragon doesn't follow your commands.
+dragon.mountNotice=Press %s and %s to fly up and down
+
+key.categories.dragonmount=Dragon Controls
+key.dragon.flyUp=Fly Up
+key.dragon.flyDown=Fly Down
+
+attribute.name.generic.movementSpeedAir=Speed (Air)
