@@ -3,27 +3,18 @@ package com.riphtix.mem;
 import com.riphtix.mem.init.MoreBlocks;
 import com.riphtix.mem.init.MoreItems;
 import com.riphtix.mem.proxy.CommonProxy;
-import net.minecraft.block.Block;
-import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.gen.feature.WorldGeneratorBonusChest;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.event.entity.EntityJoinWorldEvent;
-import net.minecraftforge.event.entity.living.LivingSpawnEvent;
-import net.minecraftforge.event.terraingen.WorldTypeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.ModMetadata;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.*;
-import net.minecraftforge.fml.common.gameevent.PlayerEvent;
-import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod (modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class MoreEverythingMod {
+
 
 	@SidedProxy (clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
@@ -89,12 +80,5 @@ public class MoreEverythingMod {
 	@Mod.EventHandler
 	public void onServerStopped(FMLServerStoppedEvent event) {
 		proxy.onServerStopped(event);
-	}
-
-	public void onWorldGen(EntityJoinWorldEvent event){
-		if(event.entity instanceof EntityPlayer){
-			EntityPlayer player = (EntityPlayer)event.entity;
-
-		}
 	}
 }

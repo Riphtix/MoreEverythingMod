@@ -30,7 +30,7 @@ public class DragonBreedAir extends DragonBreed {
         super("air", "aether", 0x1dc4f3);
         
         addImmunity(DamageSource.magic);
-        
+
         addHabitatBiome(BiomeGenBase.extremeHills);
     }
 
